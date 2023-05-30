@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<views:ConfigViewBase x:Class="StrikePackCfg.Views.RangeConfigView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls" xmlns:views="clr-namespace:StrikePackCfg.Views" Margin="0,5">
+  <GroupBox Background="{Binding HeaderBrush}" BorderBrush="{Binding HeaderBrush}">
+    <HeaderedContentControl.Header>
+      <TextBlock Foreground="#FFFFFFFF" FontWeight="Bold" Text="{Binding Header}" />
+    </HeaderedContentControl.Header>
+    <StackPanel>
+      <controls1:NumericUpDown xmlns:controls1="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" controls1:NumericUpDown.Name="Nupd" TextBoxHelper.SelectAllOnFocus="True" controls1:NumericUpDown.HasDecimals="False" controls1:NumericUpDown.InterceptArrowKeys="True" controls1:NumericUpDown.InterceptManualEnter="True" controls1:NumericUpDown.InterceptMouseWheel="True" controls1:NumericUpDown.Speedup="False" controls1:NumericUpDown.StringFormat="F0" controls1:NumericUpDown.TextAlignment="Right" controls1:NumericUpDown.TrackMouseWheelWhenMouseOver="False" controls1:NumericUpDown.Value="{Binding Value, Mode=TwoWay}">
+        <!--Unknown connection ID: 1-->
+      </controls1:NumericUpDown>
+      <Slider Margin="0,5" IsMoveToPointEnabled="True" IsSelectionRangeEnabled="False" IsSnapToTickEnabled="True" Maximum="{Binding Maximum, ElementName=Nupd}" Minimum="{Binding Minimum, ElementName=Nupd}" TickFrequency="{Binding Interval, ElementName=Nupd}" Value="{Binding Value, Mode=TwoWay}" />
+    </StackPanel>
+  </GroupBox>
+</views:ConfigViewBase>

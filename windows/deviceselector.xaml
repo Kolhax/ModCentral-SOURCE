@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windows:DeviceSelector xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mahapps="http://metro.mahapps.com/winfx/xaml/controls" xmlns:resx="clr-namespace:StrikePackCfg.Properties" Window.Title="Device Selector" FrameworkElement.Width="300" FrameworkElement.Height="350" Window.Icon="/Resources/gearhead.ico" Window.ResizeMode="NoResize" Window.SizeToContent="Width" Window.WindowStartupLocation="CenterOwner" xmlns:windows="clr-namespace:StrikePackCfg.Windows">
+  <ListView HorizontalContentAlignment="Center" Grid.IsSharedSizeScope="True" ItemsSource="{Binding Devices}" SelectedItem="{Binding SelectedDevice}">
+    <ItemsControl.ItemContainerStyle>
+      <Style TargetType="{x:Type ListViewItem}">
+        <Setter Property="FrameworkElement.Cursor" Value="Hand" />
+      </Style>
+    </ItemsControl.ItemContainerStyle>
+    <ItemsControl.ItemTemplate>
+      <DataTemplate>
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="ColumnSize" />
+          </Grid.ColumnDefinitions>
+          <StackPanel>
+            <TextBlock FontFamily="{DynamicResource DefaultFont}" FontSize="{DynamicResource NormalFontSize}" Text="{Binding Device.Product.DisplayName}" />
+            <StackPanel Orientation="Horizontal">
+              <StackPanel>
+                <FrameworkElement.Resources>
+                  <ResourceDictionary>
+                    <Style x:Key="{x:Type TextBlock}" BasedOn="{StaticResource MetroTextBlock}" TargetType="{x:Type TextBlock}">
+                      <Setter Property="Margin" Value="0,0,5,0" />
+                      <Setter Property="FontSize" Value="{DynamicResource ContentFontSize}" />
+                      <Setter Property="FontFamily" Value="{DynamicResource ContentFontFamily}" />
+                    </Style>
+                  </ResourceDictionary>
+                </FrameworkElement.Resources>
+                <TextBlock Text="{x:Static resx:UI.SerialDisplay}" />
+                <TextBlock Text="{x:Static resx:UI.FirmwareDisplay}" />
+              </StackPanel>
+              <StackPanel>
+                <TextBlock Text="{Binding Device.SerialNumber}" />
+                <TextBlock Text="{Binding Device.ApplicationVersion, FallbackValue=Unknown}" />
+              </StackPanel>
+            </StackPanel>
+          </StackPanel>
+        </Grid>
+      </DataTemplate>
+    </ItemsControl.ItemTemplate>
+    <FrameworkElement.Style>
+      <Style TargetType="{x:Type ItemsControl}">
+        <Style.Triggers>
+          <Trigger Property="ItemsControl.HasItems" Value="False">
+            <Setter Property="Template">
+              <Setter.Value>
+                <ControlTemplate>
+                  <StackPanel VerticalAlignment="Center">
+                    <TextBlock FontFamily="{DynamicResource HeaderFontFamily}" FontSize="{DynamicResource SubHeaderFontSize}" Text="{x:Static resx:UI.NoDevicesFound}" TextAlignment="Center" />
+                  </StackPanel>
+                </ControlTemplate>
+              </Setter.Value>
+            </Setter>
+          </Trigger>
+        </Style.Triggers>
+      </Style>
+    </FrameworkElement.Style>
+    <!--Unknown connection ID: 1-->
+  </ListView>
+</windows:DeviceSelector>

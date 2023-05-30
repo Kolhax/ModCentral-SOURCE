@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TournamentHeader"><value>Default/Tournament</value></data>
+  <data name="LatestFirmwareInstalled"><value>Latest</value></data>
+  <data name="NoUpdateAvailable"><value>No Update Available</value></data>
+  <data name="ConfigReadError"><value>There was an error while attempting to read your current configuration</value></data>
+  <data name="StatusTooltipFirmwareStatus"><value>FW Status:</value></data>
+  <data name="MirrorConfigurationToolTip"><value>Copies the settings to all configurations</value></data>
+  <data name="ResetToDefaultToolTipRemapper"><value>Resets the button mappings to their default values</value></data>
+  <data name="WarningTitle"><value>WARNING</value></data>
+  <data name="ShowAdvancedSettingsTooltipRight"><value>Show advanced settings for the right side</value></data>
+  <data name="RemapperReadError"><value>There was an error while attempting to read your current remap settings</value></data>
+  <data name="FactoryResetFailed"><value>Failed to reset device to factory defaults...</value></data>
+  <data name="FetchingApplicationUpdate"><value>Fetching Application Update...</value></data>
+  <data name="ConfigWriteError"><value>There was an error while attempting to save your configuration</value></data>
+  <data name="ConfigExportSuccessful"><value>Export successful!</value></data>
+  <data name="PaddleLeft"><value>Paddle Left:</value></data>
+  <data name="ExportSettingsToolTip"><value>Export configuration to a file</value></data>
+  <data name="MandatoryUpdateAvailable"><value>There is a mandatory update available to download, Click Ok to start the download.</value></data>
+  <data name="SaveConfiguration"><value>Save Configuration</value></data>
+  <data name="PaddleLeftToolTip"><value>Left Paddle Button Mapping
+NOTE: This setting is shared on all configurations</value></data>
+  <data name="RemapperWriteError"><value>There was an error while attempting to save your remap settings</value></data>
+  <data name="ConfigImportSuccessful"><value>Import successful!</value></data>
+  <data name="UpgradeText"><value>We detected you unit has not being updated to 2.x firmware. Please click here to gather more information. You will be redirected to our site using the default system browser.</value></data>
+  <data name="VisitStrikepackCom"><value>Visit modpass.ca</value></data>
+  <data name="SelectSaveLocationConfigFor"><value>Select Where to Save Configuration for {0}</value></data>
+  <data name="ResetToDefaultWarningConfig"><value>You are about to reset the configuration it's default values, are you sure you want to do this?</value></data>
+  <data name="UpdateNow"><value>Update Now</value></data>
+  <data name="RemapperNotAvailable"><value>REMAPPER NOT AVAILABLE IN THIS MODE</value></data>
+  <data name="SerialStatusConnected"><value>Connected</value></data>
+  <data name="UnknownFirmwareStatus"><value>Unknown</value></data>
+  <data name="ConfigIncompatibleFileFormat"><value>This configuration is not a compatible version (or possibly corrupt)</value></data>
+  <data name="PaddleRightToolTip"><value>Right Paddle Button Mapping
+NOTE: This setting is shared on all configurations</value></data>
+  <data name="SerialStatusNotConnected"><value>Not Connected</value></data>
+  <data name="StrikePackConfiguratorTitle"><value>ModCentral v{0}.{1}.{2}</value></data>
+  <data name="ErrorTitle"><value>ERROR</value></data>
+  <data name="StatusTooltipTitle"><value>Device Information</value></data>
+  <data name="About"><value>About</value></data>
+  <data name="Close"><value>Close</value></data>
+  <data name="Tools"><value>Tools</value></data>
+  <data name="FirmwareUpdateAvailable"><value>Update Available</value></data>
+  <data name="UserHairTriggers"><value>User Trigger Stop Gadget</value></data>
+  <data name="OkButtonText"><value>OK</value></data>
+  <data name="TradeMarksText"><value>(C) Collective Minds. All Rights Reserved.
+
+Strike Pack and all related logos are trademarks of Collective Minds. All rights reserved.
+
+All logos, company names, brands, images, trademarks and other intellectual property are the property of their respective owners. Xbox One is a trademark of the Microsoft group of companies. PlayStation 4, PS4 and Dualshock 4 and are registered trademarks of Sony Computer Entertainment Inc.</value></data>
+  <data name="RemapperToolTip"><value>Configure Remapping settings and/or Paddles</value></data>
+  <data name="NoDevicesFound"><value>No Devices Found</value></data>
+  <data name="ShowAdvancedSettingsTooltipLeft"><value>Show advanced settings for the left side</value></data>
+  <data name="PaddleRight"><value>Paddle Right:</value></data>
+  <data name="FirmwareUpdateRequiredMessage"><value>The connected/selected device needs a firmware update before it can be used, please run the firmware updater...</value></data>
+  <data name="ResetToDefault"><value>Reset To Default</value></data>
+  <data name="DisableRumble"><value>Disable Rumble</value></data>
+  <data name="WrongConfigGamepackID"><value>This configuration is for a different game</value></data>
+  <data name="CurrentlyOnLatestVersion"><value>You are currently on the latest version.</value></data>
+  <data name="ResetToDefaultToolTipConfig"><value>Resets the configuration to it's default settings</value></data>
+  <data name="ImportSettings"><value>Import Config</value></data>
+  <data name="NotAllowedToRunMessage"><value>Another application currently has exclusive access to Collective Minds hardware
+Please close all other applications which may be using your Collective Mindds device</value></data>
+  <data name="SaveSettingsToStrikePack"><value>Save Settings to StrikePack</value></data>
+  <data name="SelectExportedConfigFor"><value>Select Exported Configuration for {0}</value></data>
+  <data name="UserHairTriggersToolTip"><value>Checking this box only if you have our Trigger Stop Gadgets installed</value></data>
+  <data name="AdvancedSettingsHeader"><value>Advanced Settings</value></data>
+  <data name="FirmwareDisplay"><value>Firmware:</value></data>
+  <data name="SaveConfigurationToolTip"><value>Save the current configuration to your StrikePack</value></data>
+  <data name="SerialDisplay"><value>Serial:</value></data>
+  <data name="ConfigCorrupt"><value>This configuration is corrupt</value></data>
+  <data name="StatusTooltipStatus"><value>Status:</value></data>
+  <data name="StatusTooltipSerial"><value>Serial:</value></data>
+  <data name="UnhandledError"><value>There was an unhandled error... Please try again later...</value></data>
+  <data name="DeviceNotDetected"><value>Not Detected</value></data>
+  <data name="AnUpdateIsAvailable"><value>An update is available</value></data>
+  <data name="DominatorHeader"><value>F.P.S. Mod Mode</value></data>
+  <data name="ClickToShowDeviceInfo"><value>Click to show/hide device info</value></data>
+  <data name="ConfigDifferentVersion"><value>This configuration is for a different version</value></data>
+  <data name="SuccessTitle"><value>Success</value></data>
+  <data name="MandatoryUpdateFound"><value>Mandatory Update Found</value></data>
+  <data name="ConfigToolTip"><value>Configure this slots Gamepack/Modpack</value></data>
+  <data name="MirrorConfiguration"><value>Mirror Advanced Settings</value></data>
+  <data name="SelectDevice"><value>Select Device</value></data>
+  <data name="ImportSettingsToolTip"><value>Import a previously exported configuration</value></data>
+  <data name="DisableRumbleToolTip"><value>Checking this box ignores rumble (vibration) sent from the console to the controller</value></data>
+  <data name="FirmwareUpdateRequiredTitle"><value>Firmware Update Required</value></data>
+  <data name="spcfgFilter"><value>StrikePack Configuration (*.spcc)|*.spcc|All files (*.*)|*.*</value></data>
+  <data name="ResetToDefaultWarningRemapper"><value>You are about to reset the button mappings to their default values, are you sure you want to do this?</value></data>
+  <data name="StatusTooltipFirmware"><value>Firmware:</value></data>
+  <data name="ConfiguratorTitleEmb"><value>FPS Configurator</value></data>
+  <data name="TournamentModeRemapper"><value>Tournament Mode Remapper</value></data>
+  <data name="ShowAdvancedSettings"><value>Show Advanced Settings</value></data>
+  <data name="FactoryResetCompletedSuccessfully"><value>Factory Reset Completed Successfully!</value></data>
+  <data name="ConfiguratorTitle"><value>Mod Configurator</value></data>
+  <data name="FactoryReset"><value>Factory Reset</value></data>
+  <data name="DominatorModeRemapper"><value>F.P.S. Mod Mode Configurator</value></data>
+  <data name="File"><value>File</value></data>
+  <data name="Help"><value>Help</value></data>
+  <data name="SuccessfullySavedYourSettings"><value>Successfully saved your settings</value></data>
+  <data name="ExportSettings"><value>Export Config</value></data>
+  </root>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="cfg_8"><value>Primary Burst Fire</value></data>
+  <data name="cfg_9"><value>1 Bullet</value></data>
+  <data name="cfg_0"><value>LED 1: Primary Weapon Fire</value></data>
+  <data name="cfg_1"><value>Disabled</value></data>
+  <data name="cfg_2"><value>Optimized Rapid Fire</value></data>
+  <data name="cfg_3"><value>Rapid Fire Adjustable</value></data>
+  <data name="cfg_4"><value>MW Jitter (M1014 Modern Warfare Remastered)</value></data>
+  <data name="cfg_5"><value>Burst Fire Adjustable</value></data>
+  <data name="cfg_6"><value>Pulse Fire Adjustable</value></data>
+  <data name="cfg_7"><value>Primary Rapid Fire Rate - lower value is faster</value></data>
+  <data name="cfg_80"><value>Fortnite Builder Pro</value></data>
+  <data name="cfg_81"><value>Bumpers/Triggers Flipped</value></data>
+  <data name="cfg_82"><value>Default</value></data>
+  <data name="cfg_83"><value>Flipped</value></data>
+  <data name="cfg_84"><value>Turbo 2.0 Adjustable LP - lower value is faster</value></data>
+  <data name="cfg_85"><value>Turbo 2.0 Adjustable RP - lower value is faster</value></data>
+  <data name="cfg_19"><value>Always On</value></data>
+  <data name="cfg_18"><value>LED 3: Anti-Recoil</value></data>
+  <data name="cfg_11"><value>3 Bullets</value></data>
+  <data name="cfg_10"><value>2 Bullets</value></data>
+  <data name="cfg_13"><value>5 Bullets</value></data>
+  <data name="cfg_12"><value>4 Bullets</value></data>
+  <data name="cfg_15"><value>LED 2: Secondary Weapon Fire</value></data>
+  <data name="cfg_14"><value>6 Bullets</value></data>
+  <data name="cfg_17"><value>Secondary Burst Fire</value></data>
+  <data name="cfg_16"><value>Secondary Rapid Fire Rate - lower value is faster</value></data>
+  <data name="cfg_39"><value>Rapid Fire Drop Shot</value></data>
+  <data name="cfg_38"><value>LED 7: Left Paddle Mod</value></data>
+  <data name="cfg_33"><value>Press Sensitive / Call of Duty</value></data>
+  <data name="cfg_32"><value>Traditional / Always Activate</value></data>
+  <data name="cfg_31"><value>LED 5: Auto Run</value></data>
+  <data name="cfg_30"><value>Quick Scope Adjustable - higher value increases firing delay</value></data>
+  <data name="cfg_37"><value>Auto Drop</value></data>
+  <data name="cfg_36"><value>Rapid Fire Drop</value></data>
+  <data name="cfg_35"><value>LED 6: Drop Shot</value></data>
+  <data name="cfg_34"><value>Destiny Series / Halo 5</value></data>
+  <data name="cfg_28"><value>Press Sensitive Adjustable</value></data>
+  <data name="cfg_29"><value>Fully Auto Adjustable</value></data>
+  <data name="cfg_22"><value>Inverted Y</value></data>
+  <data name="cfg_23"><value>Scope Enable Inverted Y</value></data>
+  <data name="cfg_20"><value>Scope Enable</value></data>
+  <data name="cfg_21"><value>Scope Disable</value></data>
+  <data name="cfg_26"><value>LED 4: Quick Scope</value></data>
+  <data name="cfg_27"><value>Tap 500ms Adjustable</value></data>
+  <data name="cfg_24"><value>Scope Disable Inverted Y</value></data>
+  <data name="cfg_25"><value>Anti-Recoil Weight - higher value reduces recoil</value></data>
+  <data name="cfg_59"><value>BO3 Tactical</value></data>
+  <data name="cfg_58"><value>BO3 Default</value></data>
+  <data name="cfg_55"><value>WWII/IW Stick &amp; Move</value></data>
+  <data name="cfg_54"><value>WWII/IW One-Hand Gunslinger</value></data>
+  <data name="cfg_57"><value>WWII/IW Beast</value></data>
+  <data name="cfg_56"><value>WWII/IW Brawler</value></data>
+  <data name="cfg_51"><value>WWII/IW Bumper Jumper</value></data>
+  <data name="cfg_50"><value>WWII/IW Nom4d Lefty</value></data>
+  <data name="cfg_53"><value>WWII/IW Charlie</value></data>
+  <data name="cfg_52"><value>WWII/IW Bumper Jumper Tactical</value></data>
+  <data name="cfg_48"><value>WWII/IW Nom4d</value></data>
+  <data name="cfg_49"><value>WWII/IW Nom4d Tactical</value></data>
+  <data name="cfg_44"><value>Game/Button Layout Mode</value></data>
+  <data name="cfg_45"><value>WWII/IW Default (Game Default)</value></data>
+  <data name="cfg_46"><value>WWII/IW Tactical</value></data>
+  <data name="cfg_47"><value>WWII/IW Lefty</value></data>
+  <data name="cfg_40"><value>Reload &amp; Slide</value></data>
+  <data name="cfg_41"><value>Easy Double Jump</value></data>
+  <data name="cfg_42"><value>Turbo 2.0 Adjustable</value></data>
+  <data name="cfg_43"><value>LED 8: Right Paddle Mod</value></data>
+  <data name="cfg_79"><value>Fortnite Combat Pro</value></data>
+  <data name="cfg_78"><value>Fortnite Quick Builder</value></data>
+  <data name="cfg_77"><value>Fortnite Standard / Old School</value></data>
+  <data name="cfg_76"><value>Battlefield Series Lefty Alternate</value></data>
+  <data name="cfg_75"><value>Battlefield Series Lefty</value></data>
+  <data name="cfg_74"><value>Battlefield Series Alternate</value></data>
+  <data name="cfg_73"><value>Battlefield Series Default</value></data>
+  <data name="cfg_72"><value>Destiny Series Puppeteer</value></data>
+  <data name="cfg_71"><value>Destiny Series Jumper</value></data>
+  <data name="cfg_70"><value>Destiny Series Mirror</value></data>
+  <data name="cfg_68"><value>Destiny Series Green Thumb</value></data>
+  <data name="cfg_69"><value>Destiny Series Cold Shoulder</value></data>
+  <data name="cfg_66"><value>BO3 Stick &amp; Move</value></data>
+  <data name="cfg_67"><value>Destiny Series Default</value></data>
+  <data name="cfg_64"><value>BO3 Bumper Jumper</value></data>
+  <data name="cfg_65"><value>BO3 Bumper Jumper Tactical</value></data>
+  <data name="cfg_62"><value>BO3 Charlie</value></data>
+  <data name="cfg_63"><value>BO3 One-Hand Gunslinger</value></data>
+  <data name="cfg_60"><value>BO3 Lefty</value></data>
+  <data name="cfg_61"><value>BO3 Nom4d</value></data>
+  </root>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<views:CustomProgressDialog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro" xmlns:mahapps="http://metro.mahapps.com/winfx/xaml/controls" FrameworkElement.Cursor="Wait" xmlns:views="clr-namespace:StrikePackCfg.Views;assembly=ModCentral">
+  <ContentControl.Content>
+    <StackPanel VerticalAlignment="Center">
+      <TextBlock Name="TextBlock" Margin="10" FontFamily="{DynamicResource HeaderFontFamily}" FontSize="{DynamicResource SubHeaderFontSize}" Text="Fetching Update..." TextAlignment="Center" TextWrapping="Wrap">
+        <!--Unknown connection ID: 1-->
+      </TextBlock>
+      <controls:MetroProgressBar FrameworkElement.Margin="10" xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" controls:MetroProgressBar.EllipseDiameter="10" Control.Foreground="{DynamicResource AccentColorBrush}" ProgressBar.IsIndeterminate="True">
+        <FrameworkElement.Triggers>
+          <EventTrigger RoutedEvent="mahapps:MetroProgressBar.Loaded">
+            <BeginStoryboard>
+              <Storyboard>
+                <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)">
+                  <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="{x:Static Visibility.Hidden}" />
+                  <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Visible}" />
+                </ObjectAnimationUsingKeyFrames>
+              </Storyboard>
+            </BeginStoryboard>
+          </EventTrigger>
+        </FrameworkElement.Triggers>
+      </controls:MetroProgressBar>
+    </StackPanel>
+  </ContentControl.Content>
+</views:CustomProgressDialog>

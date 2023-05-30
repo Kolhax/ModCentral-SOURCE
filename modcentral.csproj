@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ModCentral</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net452</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\nolimits.png" />
+    <None Remove="resources\subscribe.png" />
+    <None Remove="resources\ps4.png" />
+    <None Remove="resources\ps4_controller_200px.png" />
+    <None Remove="resources\twitter.png" />
+    <None Remove="resources\xb1.png" />
+    <None Remove="resources\switch.png" />
+    <None Remove="resources\gamepacks_200px.png" />
+    <None Remove="resources\xb1_controller_200px.png" />
+    <None Remove="resources\gears_200px.png" />
+    <None Remove="resources\customize.png" />
+    <None Remove="resources\newmods.png" />
+    <None Remove="resources\gearhead.ico" />
+    <None Remove="resources\youtube.png" />
+    <None Remove="resources\megaphone_200px.png" />
+    <None Remove="resources\facebook.png" />
+    <None Remove="StrikePackCfg.Backend.Config.EliminatorProPack.cfg" />
+    <None Remove="StrikePackCfg.Backend.Config.PS4Dominator.cfg" />
+    <None Remove="StrikePackCfg.Backend.Config.XB1Dominator.cfg" />
+    <None Remove="StrikePackCfg.Resources.cmupdatetool.cmd" />
+    <None Remove="StrikePackCfg.Resources.cmupdatetool.exe" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.inifileparser.dll.compressed" />
+    <None Remove="costura.mahapps.metro.dll.compressed" />
+    <None Remove="costura.mahapps.metro.pdb.compressed" />
+    <None Remove="costura.mahapps.metro.iconpacks.fontawesome.dll.compressed" />
+    <None Remove="costura.mahapps.metro.iconpacks.fontawesome.pdb.compressed" />
+    <None Remove="costura.mahapps.metro.iconpacks.modern.dll.compressed" />
+    <None Remove="costura.mahapps.metro.iconpacks.modern.pdb.compressed" />
+    <None Remove="costura.microsoft.ai.servertelemetrychannel.dll.compressed" />
+    <None Remove="costura.microsoft.applicationinsights.dll.compressed" />
+    <None Remove="costura.microsoft.expression.interactions.dll.compressed" />
+    <None Remove="costura.propertychanged.dll.compressed" />
+    <None Remove="costura.system.windows.interactivity.dll.compressed" />
+    <None Remove="costura.de.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.en.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.es.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.fr.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.it.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.ja.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.ko.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.ru.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.zh-Hans.microsoft.expression.interactions.resources.dll.compressed" />
+    <None Remove="costura.zh-Hant.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="resources\nolimits.png" LogicalName="resources/nolimits.png" />
+    <EmbeddedResource Include="resources\subscribe.png" LogicalName="resources/subscribe.png" />
+    <EmbeddedResource Include="resources\ps4.png" LogicalName="resources/ps4.png" />
+    <EmbeddedResource Include="resources\ps4_controller_200px.png" LogicalName="resources/ps4_controller_200px.png" />
+    <EmbeddedResource Include="resources\twitter.png" LogicalName="resources/twitter.png" />
+    <EmbeddedResource Include="resources\xb1.png" LogicalName="resources/xb1.png" />
+    <EmbeddedResource Include="resources\switch.png" LogicalName="resources/switch.png" />
+    <EmbeddedResource Include="resources\gamepacks_200px.png" LogicalName="resources/gamepacks_200px.png" />
+    <EmbeddedResource Include="resources\xb1_controller_200px.png" LogicalName="resources/xb1_controller_200px.png" />
+    <EmbeddedResource Include="resources\gears_200px.png" LogicalName="resources/gears_200px.png" />
+    <EmbeddedResource Include="resources\customize.png" LogicalName="resources/customize.png" />
+    <EmbeddedResource Include="resources\newmods.png" LogicalName="resources/newmods.png" />
+    <EmbeddedResource Include="resources\gearhead.ico" LogicalName="resources/gearhead.ico" />
+    <EmbeddedResource Include="resources\youtube.png" LogicalName="resources/youtube.png" />
+    <EmbeddedResource Include="resources\megaphone_200px.png" LogicalName="resources/megaphone_200px.png" />
+    <EmbeddedResource Include="resources\facebook.png" LogicalName="resources/facebook.png" />
+    <EmbeddedResource Include="StrikePackCfg.Backend.Config.EliminatorProPack.cfg" LogicalName="StrikePackCfg.Backend.Config.EliminatorProPack.cfg" />
+    <EmbeddedResource Include="StrikePackCfg.Backend.Config.PS4Dominator.cfg" LogicalName="StrikePackCfg.Backend.Config.PS4Dominator.cfg" />
+    <EmbeddedResource Include="StrikePackCfg.Backend.Config.XB1Dominator.cfg" LogicalName="StrikePackCfg.Backend.Config.XB1Dominator.cfg" />
+    <EmbeddedResource Include="StrikePackCfg.Resources.cmupdatetool.cmd" LogicalName="StrikePackCfg.Resources.cmupdatetool.cmd" />
+    <EmbeddedResource Include="StrikePackCfg.Resources.cmupdatetool.exe" LogicalName="StrikePackCfg.Resources.cmupdatetool.exe" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.inifileparser.dll.compressed" LogicalName="costura.inifileparser.dll.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.dll.compressed" LogicalName="costura.mahapps.metro.dll.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.pdb.compressed" LogicalName="costura.mahapps.metro.pdb.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.iconpacks.fontawesome.dll.compressed" LogicalName="costura.mahapps.metro.iconpacks.fontawesome.dll.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.iconpacks.fontawesome.pdb.compressed" LogicalName="costura.mahapps.metro.iconpacks.fontawesome.pdb.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.iconpacks.modern.dll.compressed" LogicalName="costura.mahapps.metro.iconpacks.modern.dll.compressed" />
+    <EmbeddedResource Include="costura.mahapps.metro.iconpacks.modern.pdb.compressed" LogicalName="costura.mahapps.metro.iconpacks.modern.pdb.compressed" />
+    <EmbeddedResource Include="costura.microsoft.ai.servertelemetrychannel.dll.compressed" LogicalName="costura.microsoft.ai.servertelemetrychannel.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.applicationinsights.dll.compressed" LogicalName="costura.microsoft.applicationinsights.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.expression.interactions.dll.compressed" LogicalName="costura.microsoft.expression.interactions.dll.compressed" />
+    <EmbeddedResource Include="costura.propertychanged.dll.compressed" LogicalName="costura.propertychanged.dll.compressed" />
+    <EmbeddedResource Include="costura.system.windows.interactivity.dll.compressed" LogicalName="costura.system.windows.interactivity.dll.compressed" />
+    <EmbeddedResource Include="costura.de.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.de.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.en.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.en.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.es.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.es.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.fr.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.fr.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.it.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.it.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ja.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.ja.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ko.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.ko.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ru.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.ru.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.zh-Hans.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.zh-Hans.microsoft.expression.interactions.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.zh-Hant.microsoft.expression.interactions.resources.dll.compressed" LogicalName="costura.zh-Hant.microsoft.expression.interactions.resources.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.ApplicationInsights" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel" />
+    <Reference Include="System.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="MahApps.Metro" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="INIFileParser" />
+  </ItemGroup>
+</Project>

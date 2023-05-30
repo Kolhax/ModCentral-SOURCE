@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="RightToolTip"><value>Remap D-Pad Right</value></data>
+  <data name="RBToolTip"><value>Remap Right Bumper</value></data>
+  <data name="LBToolTip"><value>Remap Left Bumper</value></data>
+  <data name="DownToolTip"><value>Remap D-Pad Down</value></data>
+  <data name="MenuToolTip"><value>Remap Menu Button</value></data>
+  <data name="UpToolTip"><value>Remap D-Pad Up</value></data>
+  <data name="LTToolTip"><value>Remap Left Trigger</value></data>
+  <data name="YToolTip"><value>Remap Y Button</value></data>
+  <data name="ViewToolTip"><value>Remap View Button</value></data>
+  <data name="RYToolTip"><value>Remap Right Stick Y-Axis</value></data>
+  <data name="RXToolTip"><value>Remap Right Stick X-Axis</value></data>
+  <data name="BToolTip"><value>Remap B Button</value></data>
+  <data name="A"><value>A</value></data>
+  <data name="B"><value>B</value></data>
+  <data name="Y"><value>Y</value></data>
+  <data name="X"><value>X</value></data>
+  <data name="LB"><value>LB</value></data>
+  <data name="LY"><value>LY</value></data>
+  <data name="LX"><value>LX</value></data>
+  <data name="LS"><value>LS</value></data>
+  <data name="LT"><value>LT</value></data>
+  <data name="Up"><value>UP</value></data>
+  <data name="RT"><value>RT</value></data>
+  <data name="RS"><value>RS</value></data>
+  <data name="RY"><value>RY</value></data>
+  <data name="RX"><value>RX</value></data>
+  <data name="RB"><value>RB</value></data>
+  <data name="XToolTip"><value>Remap X Button</value></data>
+  <data name="Right"><value>RIGHT</value></data>
+  <data name="LSToolTip"><value>Remap Left Stick (Click)</value></data>
+  <data name="LeftToolTip"><value>Remap D-Pad Left</value></data>
+  <data name="HomeToolTip"><value>Remap Home/Guide Button</value></data>
+  <data name="LXToolTip"><value>Remap Left Stick X-Axis</value></data>
+  <data name="RTToolTip"><value>Remap Right Trigger</value></data>
+  <data name="RSToolTip"><value>Remap Right Stick (Click)</value></data>
+  <data name="AToolTip"><value>Remap A Button</value></data>
+  <data name="Down"><value>DOWN</value></data>
+  <data name="Menu"><value>MENU</value></data>
+  <data name="None"><value>None</value></data>
+  <data name="Left"><value>LEFT</value></data>
+  <data name="Home"><value>HOME</value></data>
+  <data name="View"><value>VIEW</value></data>
+  <data name="LYToolTip"><value>Remap Left Stick Y-Axis</value></data>
+  </root>

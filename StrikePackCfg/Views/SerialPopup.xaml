@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="StrikePackCfg.Views.SerialPopup" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:resx="clr-namespace:StrikePackCfg.Properties" Background="#FFFFFFFF" xmlns:views="clr-namespace:StrikePackCfg.Views">
+  <StackPanel Margin="10">
+    <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Text="{x:Static resx:UI.StatusTooltipTitle}" />
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <TextBlock Grid.Row="0" Grid.Column="0" Margin="0,0,5,0" HorizontalAlignment="Right" Text="{x:Static resx:UI.StatusTooltipSerial}" />
+      <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Serial}" />
+      <TextBlock Grid.Row="1" Grid.Column="0" Margin="0,0,5,0" HorizontalAlignment="Right" Text="{x:Static resx:UI.StatusTooltipFirmware}" />
+      <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Firmware}" />
+      <TextBlock Grid.Row="2" Grid.Column="0" Margin="0,0,5,0" HorizontalAlignment="Right" Text="{x:Static resx:UI.StatusTooltipFirmwareStatus}" />
+      <TextBlock Grid.Row="3" Grid.Column="0" Margin="0,0,5,0" HorizontalAlignment="Right" Text="Support end:" />
+      <TextBlock Name="Entitle" Grid.Row="3" Grid.Column="1" Text="{Binding Entitlement}" />
+      <TextBlock Grid.Row="2" Grid.Column="1">
+        <FrameworkElement.Style>
+          <Style>
+            <Style.Triggers>
+              <DataTrigger Value="False" Binding="{Binding IsLatestFirmwareInstalled}">
+                <Setter Property="TextBlock.Text" Value="{x:Static resx:UI.FirmwareUpdateAvailable}" />
+              </DataTrigger>
+              <DataTrigger Value="True" Binding="{Binding IsLatestFirmwareInstalled}">
+                <Setter Property="TextBlock.Text" Value="{x:Static resx:UI.LatestFirmwareInstalled}" />
+              </DataTrigger>
+              <DataTrigger Binding="{Binding IsLatestFirmwareInstalled}" Value="{x:Null}">
+                <Setter Property="TextBlock.Text" Value="{x:Static resx:UI.UnknownFirmwareStatus}" />
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </FrameworkElement.Style>
+      </TextBlock>
+    </Grid>
+    <Button Margin="0,10,0,0" Content="Copy Information" IsEnabled="{Binding IsConnected}" Click="CopyInfo_Click" />
+  </StackPanel>
+</UserControl>

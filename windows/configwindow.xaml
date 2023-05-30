@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windows:ConfigWindow xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls" xmlns:resx="clr-namespace:StrikePackCfg.Properties" Window.Title="{x:Static resx:UI.ConfiguratorTitle}" FrameworkElement.Width="500" FrameworkElement.Height="600" Control.BorderBrush="{DynamicResource AccentColorBrush}" Control.BorderThickness="1" Window.Icon="/Resources/gearhead.ico" Window.ResizeMode="NoResize" xmlns:controls1="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" controls1:MetroWindow.TitleCharacterCasing="Normal" Window.WindowStartupLocation="CenterOwner" xmlns:windows="clr-namespace:StrikePackCfg.Windows">
+  <DockPanel>
+    <DockPanel Margin="20,0,20,20" Dock="Bottom" LastChildFill="False">
+      <Button Width="200" Margin="0,10,0,0" Content="{x:Static resx:UI.ResetToDefault}" DockPanel.Dock="Left" ToolTip="{x:Static resx:UI.ResetToDefaultToolTipConfig}">
+        <!--Unknown connection ID: 1-->
+      </Button>
+      <Button Width="200" Margin="0,10,0,0" Content="{x:Static resx:UI.SaveConfiguration}" DockPanel.Dock="Right" ToolTip="{x:Static resx:UI.SaveConfigurationToolTip}">
+        <!--Unknown connection ID: 2-->
+      </Button>
+    </DockPanel>
+    <DockPanel Margin="20,0,20,0" Dock="Bottom" LastChildFill="False">
+      <Button Width="200" Margin="0,20,0,0" Content="{x:Static resx:UI.ExportSettings}" DockPanel.Dock="Left" ToolTip="{x:Static resx:UI.ExportSettingsToolTip}">
+        <!--Unknown connection ID: 3-->
+      </Button>
+      <Button Width="200" Margin="0,20,0,0" Content="{x:Static resx:UI.ImportSettings}" DockPanel.Dock="Right" ToolTip="{x:Static resx:UI.ImportSettingsToolTip}">
+        <!--Unknown connection ID: 4-->
+      </Button>
+    </DockPanel>
+    <ScrollViewer Margin="0,0,7,0" FontWeight="Bold">
+      <StackPanel Name="Panel">
+        <!--Unknown connection ID: 5-->
+      </StackPanel>
+    </ScrollViewer>
+  </DockPanel>
+</windows:ConfigWindow>

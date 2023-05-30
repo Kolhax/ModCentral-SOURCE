@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="StrikePackCfg.Views.UserSlotView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:gamepacks="clr-namespace:StrikePackCfg.Gamepacks" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:views="clr-namespace:StrikePackCfg.Views">
+  <DockPanel Margin="10,10,0,10" LastChildFill="True">
+    <Button Width="30" Height="30" Margin="0, 0, 10, 0" DockPanel.Dock="Left" Background="#FF000000" ToolTip="Open help in browser" Click="Button_Click">
+      <TextBlock FontWeight="Bold" FontSize="14" Foreground="#FFFFFFFF" Text="{Binding Message}" />
+    </Button>
+    <Button Name="Btn" Width="30" Height="30" Margin="10,0" DockPanel.Dock="Right" IsEnabled="{Binding ConfigEnabled, Mode=OneWay}" Click="Configure_Click">
+      <Viewbox>
+        <iconpacks:PackIconFontAwesome xmlns:controlzex="clr-namespace:ControlzEx;assembly=MahApps.Metro.IconPacks.FontAwesome" controlzex:PackIconBase.Kind="Cogs" xmlns:iconpacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.FontAwesome" />
+      </Viewbox>
+    </Button>
+    <ComboBox Name="Packs" ToolTipService.InitialShowDelay="500" ToolTipService.BetweenShowDelay="500" ToolTipService.ShowDuration="{x:Static sys:Int32.MaxValue}" ToolTipService.HasDropShadow="True" ItemsSource="{Binding Gamepacks, Source={x:Static gamepacks:UserSlotViewModel.Instance}, Mode=OneWay}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" IsEnabled="{Binding SlotEnabled, Mode=OneWay}">
+      <FrameworkElement.ToolTip>
+        <ToolTip Placement="Bottom" Background="#FFB0C4DE" PlacementRectangle="0,0,0,0" VerticalOffset="30" HasDropShadow="True">
+          <TextBlock MaxWidth="280" TextWrapping="Wrap" Foreground="#FF000000" Text="{Binding Description}" />
+        </ToolTip>
+      </FrameworkElement.ToolTip>
+    </ComboBox>
+  </DockPanel>
+</UserControl>

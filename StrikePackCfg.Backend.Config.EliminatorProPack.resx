@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="cfg_8"><value>Off</value></data>
+  <data name="cfg_9"><value>Left Stick Calibrated</value></data>
+  <data name="cfg_0"><value>Hair Trigger Stop Detection</value></data>
+  <data name="cfg_1"><value>Enabled</value></data>
+  <data name="cfg_2"><value>Disabled</value></data>
+  <data name="cfg_3"><value>Hair Trigger Stop State</value></data>
+  <data name="cfg_4"><value>Left Trigger Stop</value></data>
+  <data name="cfg_5"><value>Right Trigger Stop</value></data>
+  <data name="cfg_6"><value>Both Trigger Stops</value></data>
+  <data name="cfg_7"><value>Stick Shield Calibration</value></data>
+  <data name="cfg_19"><value>Left Stick Max - Down-Left</value></data>
+  <data name="cfg_18"><value>Left Stick Max - Down</value></data>
+  <data name="cfg_11"><value>Both Sticks Calibrated</value></data>
+  <data name="cfg_10"><value>Right Stick Calibrated</value></data>
+  <data name="cfg_13"><value>Right Stick Deadzone</value></data>
+  <data name="cfg_12"><value>Left Stick Deadzone</value></data>
+  <data name="cfg_15"><value>Left Stick Max - Up-Right</value></data>
+  <data name="cfg_14"><value>Left Stick Max - Up</value></data>
+  <data name="cfg_17"><value>Left Stick Max - Down-Right</value></data>
+  <data name="cfg_16"><value>Left Stick Max - Right</value></data>
+  <data name="cfg_39"><value>Orange</value></data>
+  <data name="cfg_38"><value>Red</value></data>
+  <data name="cfg_33"><value>Dim</value></data>
+  <data name="cfg_32"><value>Solid</value></data>
+  <data name="cfg_31"><value>LED Mode</value></data>
+  <data name="cfg_30"><value>In-Game Rumbles</value></data>
+  <data name="cfg_37"><value>LED Colour</value></data>
+  <data name="cfg_36"><value>Rainbow</value></data>
+  <data name="cfg_35"><value>Dynamic</value></data>
+  <data name="cfg_34"><value>Pulsing</value></data>
+  <data name="cfg_28"><value>Right Stick Max - Left</value></data>
+  <data name="cfg_29"><value>Right Stick Max - Up-Left</value></data>
+  <data name="cfg_22"><value>Right Stick Max - Up</value></data>
+  <data name="cfg_23"><value>Right Stick Max - Up-Right</value></data>
+  <data name="cfg_20"><value>Left Stick Max - Left</value></data>
+  <data name="cfg_21"><value>Left Stick Max - Up-Left</value></data>
+  <data name="cfg_26"><value>Right Stick Max - Down</value></data>
+  <data name="cfg_27"><value>Right Stick Max - Down-Left</value></data>
+  <data name="cfg_24"><value>Right Stick Max - Right</value></data>
+  <data name="cfg_25"><value>Right Stick Max - Down-Right</value></data>
+  <data name="cfg_55"><value>Custom Colour Hue</value></data>
+  <data name="cfg_54"><value>Custom</value></data>
+  <data name="cfg_51"><value>Magenta</value></data>
+  <data name="cfg_50"><value>Purple</value></data>
+  <data name="cfg_53"><value>Crimson</value></data>
+  <data name="cfg_52"><value>Pink</value></data>
+  <data name="cfg_48"><value>Indigo</value></data>
+  <data name="cfg_49"><value>Violet</value></data>
+  <data name="cfg_44"><value>Emerald</value></data>
+  <data name="cfg_45"><value>Cyan</value></data>
+  <data name="cfg_46"><value>Azure</value></data>
+  <data name="cfg_47"><value>Blue</value></data>
+  <data name="cfg_40"><value>Amber</value></data>
+  <data name="cfg_41"><value>Yellow</value></data>
+  <data name="cfg_42"><value>Lime</value></data>
+  <data name="cfg_43"><value>Green</value></data>
+  </root>
